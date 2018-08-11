@@ -1,0 +1,13 @@
+{
+"companyName": "Nevosoft",
+"productName": "Eco City",
+"dataUrl": "ecbuild.data.unityweb",
+"asmCodeUrl": "ecbuild.asm.code.unityweb",
+"asmMemoryUrl": "ecbuild.asm.memory.unityweb",
+"asmFrameworkUrl": "ecbuild.asm.framework.unityweb",
+"TOTAL_MEMORY": 402653184,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
