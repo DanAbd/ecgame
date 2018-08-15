@@ -13,9 +13,10 @@
       var gameInstance = UnityLoader.instantiate("gameContainer", "Build/ecbuild.json", {onProgress: UnityProgress});
       console.log(window.location.href);
       
-      VK.api("wall.post", {"message":"Test message","attachments":"photo12867381_456239331,https://vk.com/app1898193"}, function (data) {
-        alert("Post ID:" + data.response.post_id);
-      });
+//       VK.api("wall.post", {"message":"Test message","attachments":"photo12867381_456239331,https://vk.com/app1898193"}, function (data) {
+//         alert("Post ID:" + data.response.post_id);
+//       });
+      VK.callMethod("showRequestBox", 405607501, "Hello!", "myRequestKey");
     </script>
   </head>
   <body>
