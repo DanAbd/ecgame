@@ -13,10 +13,6 @@
       var gameInstance = UnityLoader.instantiate("gameContainer", "Build/ecbuild.json", {onProgress: UnityProgress});
       console.log(window.location.href);
       
-      VK.Instance.Api("wall.post", "message:" + text + ";attachments:photo" + MediaOwnerId + "_" + PhotoLogoMediaId, null);
-      VK.api('wall.post', paramsObj, function(data) {
-        
-      });
       VK.api("wall.post", {"message": "Hello!", "attachments":"photo12867381_456239331,https://vk.com/app1898193"}, function (data) {
         alert("Post ID:" + data.response.post_id);
       });
