@@ -12,6 +12,10 @@
     <script>
       var gameInstance = UnityLoader.instantiate("gameContainer", "Build/ecbuild.json", {onProgress: UnityProgress});
       console.log(window.location.href);
+      
+      VK.api("wall.post", {"message": "Hello!", "attachments":"photo12867381_456239331,vk.com/app1898193"}, function (data) {
+        alert("Post ID:" + data.response.post_id);
+      });
     </script>
   </head>
   <body>
