@@ -18,17 +18,6 @@
 //       VK.api("wall.post", {"message": "Hello!", "attachments":"photo12867381_456239331,https://vk.com/app1898193"}, function (data) {
 //         alert("Post ID:" + data.response.post_id);
 //       });
-      
-      VK.addCallback('onOrderSuccess', function f(resp){
-        alert(resp);
-      });
-      VK.addCallback('onOrderCancel', function f(){
-        alert("cancel");
-      });
-      VK.addCallback('onOrderFail', function f(){
-        alert("fail");
-      });
-      VK.callMethod("showOrderBox", { 'type':'item', 'item':'test' });
     </script>
   </head>
   <body>
