@@ -23,10 +23,10 @@
         alert(resp);
       });
       VK.addCallback('onOrderCancel', function f(){
-        alert(resp);
+        alert("cancel");
       });
-      VK.addCallback('onOrderFail', function f(resp){
-        alert(resp);
+      VK.addCallback('onOrderFail', function f(){
+        alert("fail");
       });
       VK.callMethod("showOrderBox", { 'type':'item', 'item':'test' });
     </script>
