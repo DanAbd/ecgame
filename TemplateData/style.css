@@ -17,9 +17,13 @@
 .webgl-content .footer .title {margin-right: 10px; float: right;}
 .webgl-content .footer .fullscreen {background-image: url('fullscreen.png'); width: 38px; float: right;}
 
+body {
+    margin: 0;
+}
 
 #game-menu {
     height: 86px;
+    border: 0; margin: 0; padding: 0;
     background: url(html/bg_tile1.png) repeat-x;
 }
 
