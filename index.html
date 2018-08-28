@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Eco Farm</title>
+    <title>Eco City</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <script src="https://vk.com/js/api/xd_connection.js?2"  type="text/javascript"></script>
@@ -18,9 +18,27 @@
 //       VK.api("wall.post", {"message": "Hello!", "attachments":"photo12867381_456239331,https://vk.com/app1898193"}, function (data) {
 //         alert("Post ID:" + data.response.post_id);
 //       });
+
+    function showInviteFriendsDialog() {}
     </script>
   </head>
   <body>
+    <div id="game-menu">
+      <div class="container">
+        <div class="back1"></div>
+        <div class="back2"></div>
+        <div class="logoEN_v2"></div>
+        <div class="likebar"></div>
+        <div class="get-on-google-play">
+          <a href='https://play.google.com/store/apps/details?id=com.nevosoft.ecofarm&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' target="_blank"><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' width="100px"/></a>
+        </div>
+        <div class="navbar">
+          <a class="button" href="#" onclick="showInviteFriendsDialog();"><span id="tab_invite_friends">Invite Friends</span></a>
+          <a class="button" href="https://vk.com/ecofarmofficial" target="_blank"><span id="tab_community">Community</span></a>
+          <a class="button" href="https://bffb.nevosoft.com/bf/support/?uid=662621133823827" target="_blank"><span id="tab_support">Support</span></a>
+        </div>
+      </div>
+    </div>
     <div class="webgl-content">
       <div id="gameContainer" style="width: 1000px; height: 710px"></div>
       <div class="footer">
